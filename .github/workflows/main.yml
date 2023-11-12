@@ -1,0 +1,9 @@
+name: Test
+on:
+  workflow_dispatch:
+
+jobs:
+  main:
+    runs-on: macos-latest
+    steps:
+      - uses: sevenc-nanashi/dotfiles@main
