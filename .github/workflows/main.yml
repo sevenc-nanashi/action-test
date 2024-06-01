@@ -4,6 +4,6 @@ on:
 
 jobs:
   main:
-    runs-on: macos-latest
+    runs-on: macos-13
     steps:
       - uses: sevenc-nanashi/dotfiles@main
